@@ -20,6 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pandas camelot-py
+        apt install ghostscript python3-tk -y
 
     - name: Run script and save result
       run: |
